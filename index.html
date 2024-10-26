@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Home</title>
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/materialize.min.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Gabriela&display=swap" rel="stylesheet">
+
+  <style>
+
+    
+    /* Ensure dropdown appears below the navigation bar */
+    .dropdown-content {
+      position: absolute !important;
+      top: 65px !important;
+      z-index: 9999 !important;
+    }
+
+    .lg {
+      border-radius: 35px;
+    }
+    .active.hm{
+      border-bottom: 2px solid rgb(169, 3, 48); /* Wine color */
+    }
+    .active.h{
+      border-bottom: 2px solid rgb(169, 3, 48); /* Wine color */
+    }
+    /* Navigation bar on top of parallax */
+    nav {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      z-index: 1000;
+    }
+
+    /* Navigation font style */
+    nav a {
+      font-family: 'Merriweather', serif; /* You can also try 'Playfair Display' */
+      font-size: 1.2rem;
+      font-weight: 700;
+      letter-spacing: 1px;
+    }
+
+    /* Make the parallax container a specific height */
+    .parallax-container {
+      height: 520px; /* Adjust the height to your needs */
+    }
+
+    /* To make sure the image fits correctly within the parallax effect */
+    .parallax img {
+      width: 100%; /* The image stretches to fit the container */
+      height: auto; /* Auto height allows it to scale correctly */
+    }
+
+    /* Remove gap between parallax image and welcome section */
+    section.org {
+      margin: 0;
+      padding: 1px 0; /* Adjust padding for the section's content */
+      position: relative; /* Keeps it directly below the parallax */
+      background-color: rgb(169, 3, 48);
+    }
+
+    /* Welcome section styling */
+    section.org h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: 3rem;
+      color: #fff;
+      text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4); /* Adds depth */
+      padding: 20px;
+      border-radius: 10px;
+      text-align: center;
+      letter-spacing: 2px;
+      margin: 0;
+    }
+
+    /* Additional styling for content if necessary */
+    h1 {
+      font-size: 2rem !important;
+      line-height: 110%;
+      margin: 0 !important;
+      text-align: center;
+      padding: 10px;
+    }
+
+    .heade{
+      padding-top: 30px !important;
+    }
+
+    .dropdown-content li>a, .dropdown-content li>span {
+      font-size: 16px;
+      color: black;
+      display: block;
+      line-height: 22px;
+      padding: 14px 16px;
+    }
+
+    /* Hide main menu when sidenav is open */
+    .sidenav-open nav {
+      display: none; /* Hide the navigation when sidenav is open */
+    }
+
+    .justify{
+      text-align: justify;
+    }
+    .why-choose {
+  padding: 50px 0;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+.why-choose h2 {
+  font-size: 36px;
+  color: #222;
+  margin-bottom: 40px;
+  font-family: 'Helvetica', sans-serif;
+}
+
+.reason {
+  transition: transform 0.3s ease;
+}
+
+.reason:hover {
+  transform: translateY(-10px);
+}
+
+.card-content i.material-icons.large {
+  font-size: 80px;
+  margin-bottom: 20px;
+  color: #42a5f5;
+}
+
+.card-content h3 {
+  font-size: 24px;
+  margin-top: 0;
+  color: #333;
+}
+  </style>
+</head>
+
+<body>
+
+<header>
+
+<nav class="z-depth-0 transparent">
+  <div class="container">
+    <div class="nav-wrapper">
+      <a href="#!" class="brand-logo"><span style="color: rgb(169, 3, 48)">Surulere </span>Girls</a>
+      <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons" style="color: rgb(169, 3, 48);">menu</i></a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="index.html" class="active hm">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a class="dropdown-trigger" href="#!" data-target="dropdown1">Academics<i class="material-icons right">arrow_drop_down</i></a></li>
+        <li><a href="alumni.html" class="btn btn-header waves-effect waves-light lg" style="background-color: rgb(169, 3, 48)">Alumni <i class="material-icons right">face</i></a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Dropdown Structure -->
+<ul id="dropdown1" class="dropdown-content">
+  <li><a href="admission.html">Admission</a></li>
+  <li class="divider"></li>
+  <li><a href="facilities.html">Facilities</a></li>
+</ul>
+
+<ul class="sidenav" id="mobile-demo">
+  <li><a href="index.html" class="active h">Home</a></li>
+  <li><a href="about.html">About</a></li>
+  <li><a class="dropdown-trigger" href="#!" data-target="dropdown2">Academics<i class="material-icons right">arrow_drop_down</i></a></li>
+  <li><a href="alumni.html" class="btn btn-header waves-effect waves-light btn-large" style="background-color: rgb(169, 3, 48)">Alumni <i class="material-icons right">face</i></a></li>
+</ul>
+
+<ul id="dropdown2" class="dropdown-content">
+  <li><a href="admission.html">Admission</a></li>
+  <li class="divider"></li>
+  <li><a href="facilities.html">Facilities</a></li>
+</ul>
+
+<!-- Parallax Image Section -->
+<div class="parallax-container">
+  <div class="parallax">
+    <img src="SS.jpg" alt="Parallax Image" style="filter: brightness(0.9);">
+  </div>
+</div>
+
+<!-- Enticing Welcome Section -->
+<section class="org">
+  <h1 >WELCOME TO SURULERE GIRLS SENIOR SECONDARY SCHOOL</h1>
+</section>
+
+</header>
+
+
+<div class="container" style=" font-family: Gabriela, serif;
+font-weight: 400;
+font-style: normal; line-height: 1.5; font-size: 17px;">
+  <div class="row" id="row">
+      <div class="col s12 m12 l6">
+      <h4 style="padding-top: 30px;" >DESCRIPTION OF S.G.S.S.S</h4>
+         <p class="center-align  justify" id="ptext">It is painted yellow and brown with a blue roof, It is a three storey building. It is a well disciplined school. It gives a platform to do better in life. Our school is characterised by a supportive community, consistent and purposeful feedback, a safe learning environment, excellent resources and facilities, and a commitment to extra-curricular activities. It is a dynamic institution Our teachers have skills in communication, listening, collaboration, adaptability, empathy and patience. Our principal also plays a very significant role in the lives of students on a daily basis. 
+          <div class="row">
+            <div class="col l6 m12 s12">
+              <i class="material-icons left" style="color: rgb(169, 3, 48);">arrow_forward</i>Skilled Instructors</div>
+            <div class="col l6 m12 s12"> 
+              <i class="material-icons left" style="color: rgb(169, 3, 48);">arrow_forward</i>Educational Home</div>
+          </div>
+          <a href="about.html" class="btn pulse"style="background-color: rgb(169, 3, 48);">Read More</a>
+      </div>
+      <div class="col s12 m12 l5 offset-l1" style="padding-top: 50px;">
+          <div class="card ">
+              <div class="card-image">
+                  <img src="TI.jpg" alt="" class="materialboxed">
+              </div>
+          </div>
+          </div>
+          
+  </div><br><br><br><br>
+
+  </div>
+  <section style="background-color:rgb(169, 3, 48); padding: 10px; font-family: Gabriela, serif;
+  font-weight: 400;
+  font-style: normal; line-height: 1.5; font-size: 17px;">
+    <p class="center-align white-text">Education sparks curiosity and growth. Each lesson opens new doors to explore.</p>
+    <h5 class="center-align white-text">MR AGORO IDOWU</h3>
+   </section>
+
+   <section class="why-choose" style=" font-family: Gabriela, serif;
+   font-weight: 400;
+   font-style: normal; line-height: 1.5; font-size: 17px;">
+    <div class="container">
+      <h2 style="color:grey">Why Surulere Girls Stands Out</h2>
+      <div class="row">
+        <div class="col s12 m12 l4">
+          <div class="card hoverable reason">
+            <div class="card-content">
+              <i class="material-icons large" style="color: rgb(169, 3, 48);">leaderboard</i>
+              <h3>Empowering Future Leaders</h3>
+              <p>Our programs build confidence and leadership skills, preparing girls for success in the real world.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m12 l4">
+          <div class="card hoverable reason">
+            <div class="card-content">
+              <i class="material-icons large" style="color: rgb(169, 3, 48);">school</i>
+              <h3>Academic Excellence</h3>
+              <p>We provide an outstanding academic curriculum that ensures every girl reaches her potential.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m12 l4">
+          <div class="card hoverable reason">
+            <div class="card-content">
+              <i class="material-icons large" style="color: rgb(169, 3, 48);">lock</i>
+              <h3>Safe and Nurturing Environment</h3>
+              <p>We create a supportive and safe space where students can thrive both academically and socially.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  
+  <br><br><br><br><br>
+  <div class="container" style=" font-family: Gabriela, serif;
+  font-weight: 400;
+  font-style: normal; line-height: 1.5; font-size: 17px;">
+    <div class="row">
+      <div class="col l3 m6 s12">
+        <h1 class="heade" style="color: rgb(169, 3, 48);"><span style="color: grey; font-size: 50px;">17</span><br><br> Subjects</h1>
+        </div>
+        <div class="col l3 m6 s12">
+          <h1 class="heade"  style="color: rgb(169, 3, 48);"><span style="color: grey; font-size: 50px;">25</span><br><br>Expert Teachers</h1>
+          </div>
+          <div class="col l2 m6 s12">
+            <h1 class="heade"  style="color: rgb(169, 3, 48); margin-top: 20px;"><span style="color: grey; font-size: 50px;">750</span><br><br>Students</h1>
+            </div>
+            <div class="col l4 m6 s12">
+              <h1 class="heade"  style="color: rgb(169, 3, 48);"><span style="color: grey; font-size: 50px;">700</span><br><br>Satisfied parents</h1>
+              </div>
+            </div>
+  </div>
+  
+  <br><br><br><br><br>
+
+<div class="container" style=" font-family: Gabriela, serif;
+font-weight: 400;
+font-style: normal; line-height: 1.5; font-size: 17px;">
+  <h2 style="color: rgb(169, 3, 48)">GALLERY</h2>
+  <div class="row">
+    <div class="col s12 l4">
+        <div class="card">
+            <div class="card-image">
+                <img src="BAN.jpg" alt="" class="materialboxed responsive-img">
+            </div>
+        </div>
+    </div>
+    <div class="col s12 l4">
+    <div class="card">
+        <div class="card-image">
+            <img src="HA.jpg" alt="" class="materialboxed responsive-img">
+        </div>
+    </div>
+    </div>
+   
+
+    <div class="col s12 l4">
+        <div class="card">
+            <div class="card-image">
+                <img src="IF.jpg" alt="" class="materialboxed responsive-img">
+            </div>
+        </div>
+    </div>
+   
+</div>
+</div>
+
+</section>
+    <footer class="page-footer" style="background-color:grey">
+      <div class="container">
+         <div class="row">
+              <div class="col s12 l4">
+                  <h5>About S.G.S.S.S</h5>
+                  <p style="text-align: justify !important;">This is a website created by young girls, to tell people more about the school.</p>
+              </div>
+              <div class="col s12 l3 offset-l1">
+                  <h5>Connect</h5>
+                  <a class="icon" href="#" style="color:  rgb(169, 3, 48);"><i class="fab fa-facebook-f"></i></a>
+                  <a class="icon" href="#" style="color:  rgb(169, 3, 48);"><i class="fab fa-twitter"></i></a>
+                  <a class="icon" href="#" style="color:  rgb(169, 3, 48);"><i class="fab fa-linkedin"></i></a>
+                  <a class="icon" href="#" style="color:  rgb(169, 3, 48);"><i class="fab fa-google"></i></a>
+                  <a class="icon" href="#" style="color:  rgb(169, 3, 48);"><i class="fab fa-instagram"></i></a>
+              </div>
+               <div class="col s12 l4">
+                  <h5>Contact</h5>
+                  <p>15b Agege Motor road,<br>Moshalashi,<br>Lagos.</p>
+              </div>
+         </div>
+      </div>
+      <div class="footer-copyright" style="background-color: rgb(169, 3, 48);">
+          <div class="container">
+                  <p class="center-align">&copy; 2024 Designed by S.G.S.S.S students. All rights reserved</p>
+          </div>
+      </div>
+  </footer>
+
+  
+
+<!-- Scripts for Materialize components -->
+<script src="js/jquery.js"></script>
+<script src="js/materialize.min.js"></script>
+
+<script>
+  $(document).ready(function(){
+    // Initialize sidenav
+    $('.sidenav').sidenav({
+      onOpenStart: function() {
+        $('body').addClass('sidenav-open'); // Add class when sidenav opens
+      },
+      onCloseEnd: function() {
+        $('body').removeClass('sidenav-open'); // Remove class when sidenav closes
+      }
+    });
+    
+    // Initialize parallax
+    $('.parallax').parallax(); 
+    
+    // Initialize other components
+    $('.materialboxed').materialbox();
+    $('.tabs').tabs();
+    $('.datepicker').datepicker({
+      disableWeekends: true,
+      yearRange: 1
+    });
+    $('.tooltipped').tooltip();
+    $('.scrollspy').scrollSpy();
+    $('.slider').slider(); 
+    $('.tap-target').tapTarget();
+    $('.modal').modal();
+    $('.carousel').carousel();
+
+    // Force a repaint on window resize
+    $(window).on('resize', function() {
+      $('nav').hide().show(0); // Force nav redraw
+      $('.parallax').parallax(); // Reinitialize parallax on resize
+    });
+  });
+
+  document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.dropdown-trigger');
+    var instances = M.Dropdown.init(elems, {
+      coverTrigger: false,
+      alignment: 'right'
+    });
+  });
+</script>
+
+</body>
+</html>

@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>About</title>
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/materialize.min.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Gabriela&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+
+  <style>
+.active.ab{
+      border-bottom: 2px solid rgb(169, 3, 48); /* Wine color */
+    }
+
+    .dropdown-content {
+      position: absolute !important;
+      top: 65px !important;
+      z-index: 9999 !important;
+    }
+
+    .lg {
+      border-radius: 35px;
+    }
+
+    /* Navigation bar on top of parallax */
+    nav {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      z-index: 1000;
+    }
+
+    /* Navigation font style */
+    nav a {
+      font-family: 'Merriweather', serif; /* You can also try 'Playfair Display' */
+      font-size: 1.2rem;
+      font-weight: 700;
+      letter-spacing: 1px;
+    }
+    .dropdown-content li>a, .dropdown-content li>span {
+      font-size: 16px;
+      color: black;
+      display: block;
+      line-height: 22px;
+      padding: 14px 16px;
+    }
+
+
+    /* Hide main menu when sidenav is open */
+    .sidenav-open nav {
+      display: none; /* Hide the navigation when sidenav is open */
+    }
+    .slider .indicators .indicator-item.active {
+    background-color: rgb(169, 3, 48) !important;
+}
+
+h1{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+.justify{
+  text-align: justify;
+}
+
+
+  </style>
+</head>
+
+<body>
+
+<header>
+
+<nav class="z-depth-0 transparent">
+  <div class="container">
+    <div class="nav-wrapper">
+      <a href="#!" class="brand-logo"><span style="color: rgb(169, 3, 48)">Surulere </span>Girls</a>
+      <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons" style="color: rgb(169, 3, 48);">menu</i></a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html"  class="active ab">About</a></li>
+        <li><a class="dropdown-trigger" href="#!" data-target="dropdown1">Academics<i class="material-icons right">arrow_drop_down</i></a></li>
+        <li><a href="alumni.html" class="btn btn-header waves-effect waves-light lg" style="background-color: rgb(169, 3, 48)">Alumni <i class="material-icons right">face</i></a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Dropdown Structure -->
+<ul id="dropdown1" class="dropdown-content">
+  <li><a href="admission.html">Admission</a></li>
+  <li class="divider"></li>
+  <li><a href="facilities.html">Facilities</a></li>
+</ul>
+
+<ul class="sidenav" id="mobile-demo">
+  <li><a href="index.html">Home</a></li>
+  <li><a href="about.html" class="active ab">About</a></li>
+  <li><a class="dropdown-trigger" href="#!" data-target="dropdown2">Academics<i class="material-icons right">arrow_drop_down</i></a></li>
+  <li><a href="alumni.html" class="btn btn-header waves-effect waves-light lg" style="background-color: rgb(169, 3, 48)">Alumni <i class="material-icons right">face</i></a></li>
+</ul>
+
+<ul id="dropdown2" class="dropdown-content">
+  <li><a href="admission.html">Admission</a></li>
+  <li class="divider"></li>
+  <li><a href="facilities.html">Facilities</a></li>
+</ul>
+
+<div class="slider">
+    <ul class="slides"> 
+        <li><img src="images/staff.jpg" height="100%" style=" filter: brightness(0.5); "></li>
+        <li><img src="images/bann.jpg" alt="" style=" filter: brightness(0.5); "></li>
+        <li><img src="images/recy.jpg" id="img" style=" filter: brightness(0.5); "></li>
+        <li><img src="images/ban.jpg" ></li>
+    </ul>
+  </div>
+</header>  
+
+
+<div class="container ">
+  <h1 class="red-text text-darken-4">BUILT WITH GREATNESS</h1>
+<p class="justify" style=" font-family: Gabriela, serif;
+font-weight: 400;
+font-style: normal; line-height: 1.5;"> At Surulere Girls Senior Secondary School, we believe in nurturing not just students, but future leaders. It was established in the year 1985. Our school is a beacon of excellence, where every girl is empowered to explore her full potential. With a strong emphasis on academic achievement and personal growth, we create an environment that inspires creativity, critical thinking, and resilience.
+
+  Our dedicated and qualified teachers are passionate about guiding each student on her journey to success. They provide not only knowledge but also mentorship, encouraging us to dream big and pursue our aspirations with confidence. The supportive community fosters collaboration and friendship, ensuring that we uplift each other as we strive for greatness.</p>
+
+<img src="images/ban.jpg" alt="this is nature" class="responsive-img">
+<p class="justify" style=" font-family: Gabriela, serif;
+font-weight: 400;
+font-style: normal; line-height: 1.5;">Surulere Girls Senior Secondary School is more than an educational institution; it is a launching pad for our ambitions. We are equipped with the skills and values necessary to face challenges head-on and to contribute positively to society. Together, we are building a brighter future, one filled with possibilities and achievements. It is a place where dreams are nurtured and where young women are empowered to reach their full potential. We are not just students,we are warriors who fight for our educational right,our future and our place in the world. 
+
+  Join us in this journey of growth, where every achievement is celebrated and every dream is within reach! </p>
+</div>
+
+<br><br><br>
+<section style=" background-color: rgb(169, 3, 48) !important; color: white; padding: 40px;">
+<div class="container ">
+  <div class="row">
+  <div class="card" style=" font-family: Gabriela, serif;
+  font-weight: 400;
+  font-style: normal; line-height: 1.5;">
+    <div class="col l4 m12 s12">
+      <div class="grey-text large center" style="font-weight: bold; font-size: 18px;">SCHOOL MISSION</div>
+      <p class="justify" style="font-size: 13px;">Raising all round developed girls with competitive skills through improved teaching and leaning process,capacity building and modern instructional materials for enhanced performance</p>
+    </div>
+
+    <div class="col l3 m12 s12">
+      <div class="grey-text large center" style="font-weight: bold; font-size: 18px;" >SCHOOL VISION</div>
+      <p class="justify" style="font-size: 13px;">To raise all round developed girls with competitive skills for self reliance and societal development</p>
+    </div>
+
+    <div class="col l5 m12 s12">
+      <div class="grey-text large center" style="font-weight: bold; font-size: 18px;" >SCHOOL PLEDGE</div>
+      <p class="justify" style="font-size: 13px;">I pledge to uphold the values of excellence,integrity and perservance.<br> I commit to striving for academic success with diligence and dedication,always challenging myself to reach new heights of knowledge and understanding. </p>
+    </div>
+  </div>
+  </div>
+</div>
+</section>
+
+
+<section class="about section scrollspy">
+  <section id="about" style="padding-top: 80px;">
+      <div class="container">
+          <div class="row">
+              <div class="col l5 push-l7">
+                  <img src="images/dress.jpg" class="responsive-img img" style=" filter: brightness(0.8); ">
+              </div>
+              <div class="col l5 offset-l1 pull-l5">
+                  <h5 style="  font-family: 'Merriweather', serif;" class="grey-text">DRESS CODE</h5>
+                  <p class="justify"  style=" font-family: Gabriela, serif;
+                  font-weight: 400;
+                  font-style: normal; line-height: 1.5; text-align: justify;">
+                    For our school dress code, I propose an outfit that embodies our school colors of wine and grey. This ensemble features a wine beret, a grey collar shirt, and a wine pleated skirt, complemented by grey socks and black shoes. To add a touch of formality, a wine tie can be worn. For Muslim students, a wine hijab would complete the look. Our school colors represent pride and unity, reflecting our commitment to excellence and fostering a strong community. Wearing these colors not only promotes school spirit but also creates a sense of belonging among students.
+                  </p>
+              </div>
+          </div>
+      </div>
+  </section>
+</section>
+
+<footer class="page-footer" style="background-color:grey">
+  <div class="container">
+     <div class="row">
+          <div class="col s12 l4">
+              <h5>About S.G.S.S.S</h5>
+              <p style="text-align: justify !important;">This is a website created by young girls, to tell people more about the school.</p>
+          </div>
+          <div class="col s12 l3 offset-l1">
+              <h5>Connect</h5>
+              <a class="icon" href="#" style="color:  rgb(169, 3, 48);"><i class="fab fa-facebook-f"></i></a>
+              <a class="icon" href="#" style="color:  rgb(169, 3, 48);"><i class="fab fa-twitter"></i></a>
+              <a class="icon" href="#" style="color:  rgb(169, 3, 48);"><i class="fab fa-linkedin"></i></a>
+              <a class="icon" href="#" style="color:  rgb(169, 3, 48);"><i class="fab fa-google"></i></a>
+              <a class="icon" href="#" style="color:  rgb(169, 3, 48);"><i class="fab fa-instagram"></i></a>
+          </div>
+           <div class="col s12 l4">
+              <h5>Contact</h5>
+              <p>15b Agege Motor road,<br>Moshalashi,<br>Lagos.</p>
+          </div>
+     </div>
+  </div>
+  <div class="footer-copyright" style="background-color: rgb(169, 3, 48);">
+      <div class="container">
+              <p class="center-align">&copy; 2024 Designed by S.G.S.S.S students. All rights reserved</p>
+      </div>
+  </div>
+</footer>
+
+
+
+<!-- Scripts for Materialize components -->
+<script src="js/jquery.js"></script>
+<script src="js/materialize.min.js"></script>
+
+<script>
+  $(document).ready(function(){
+    // Initialize sidenav
+    $('.sidenav').sidenav({
+      onOpenStart: function() {
+        $('body').addClass('sidenav-open'); // Add class when sidenav opens
+      },
+      onCloseEnd: function() {
+        $('body').removeClass('sidenav-open'); // Remove class when sidenav closes
+      }
+    });
+    
+    // Initialize parallax
+    $('.parallax').parallax(); 
+    
+    // Initialize other components
+    $('.materialboxed').materialbox();
+    $('.tabs').tabs();
+    $('.datepicker').datepicker({
+      disableWeekends: true,
+      yearRange: 1
+    });
+    $('.tooltipped').tooltip();
+    $('.scrollspy').scrollSpy();
+    $('.slider').slider(); 
+    $('.tap-target').tapTarget();
+    $('.modal').modal();
+
+    // Force a repaint on window resize
+    $(window).on('resize', function() {
+      $('nav').hide().show(0); // Force nav redraw
+      $('.parallax').parallax(); // Reinitialize parallax on resize
+    });
+  });
+
+  document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.dropdown-trigger');
+    var instances = M.Dropdown.init(elems, {
+      coverTrigger: false,
+      alignment: 'right'
+    });
+  });
+</script>
+
+</body>
+</html>

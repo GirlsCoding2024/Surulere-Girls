@@ -1,0 +1,620 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Alumi</title>
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/materialize.min.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Gabriela&display=swap" rel="stylesheet">
+
+  <style>
+    body{
+       font-family: Gabriela, serif;
+    }
+    .dropdown-content {
+      position: absolute !important;
+      top: 65px !important;
+      z-index: 9999 !important;
+    }
+
+    .lg {
+      border-radius: 35px;
+    }
+
+    /* Navigation bar on top of parallax */
+    nav {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      z-index: 1000;
+    }
+
+    /* Navigation font style */
+    nav a {
+      font-family: 'Merriweather', serif; /* You can also try 'Playfair Display' */
+      font-size: 1.2rem;
+      font-weight: 700;
+      letter-spacing: 1px;
+    }
+    .dropdown-content li>a, .dropdown-content li>span {
+      font-size: 16px;
+      color: black;
+      display: block;
+      line-height: 22px;
+      padding: 14px 16px;
+    }
+
+    /* Hide main menu when sidenav is open */
+    .sidenav-open nav {
+      display: none; /* Hide the navigation when sidenav is open */
+    }
+
+    .slider .indicators .indicator-item.active {
+    background-color: rgb(169, 3, 48) !important;
+}
+
+.remedies {
+    padding-top: 35px;
+    padding-right: 30px;
+}
+
+.justify{
+    text-align: justify;
+}
+
+h5{
+  color: white;
+}
+  </style>
+</head>
+
+<body  style="background-color:grey">
+
+<header>
+
+<nav class="z-depth-0 transparent">
+  <div class="container">
+    <div class="nav-wrapper">
+      <a href="#!" class="brand-logo"><span style="color: rgb(169, 3, 48)">Surulere </span>Girls</a>
+      <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons" style="color: rgb(169, 3, 48);">menu</i></a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html" >About</a></li>
+        <li><a class="dropdown-trigger" href="#!" data-target="dropdown1">Academics<i class="material-icons right">arrow_drop_down</i></a></li>
+        <li><a href="alumni.html" class="btn btn-header waves-effect waves-light lg" style="background-color: rgb(169, 3, 48)">Alumni <i class="material-icons right">face</i></a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Dropdown Structure -->
+<ul id="dropdown1" class="dropdown-content">
+  <li><a href="admission.html">Admission</a></li>
+  <li class="divider"></li>
+  <li><a href="facilities.html">Facilities</a></li>
+</ul>
+
+<ul class="sidenav" id="mobile-demo">
+  <li><a href="index.html">Home</a></li>
+  <li><a href="about.html">About</a></li>
+  <li><a class="dropdown-trigger" href="#!" data-target="dropdown2">Academics<i class="material-icons right">arrow_drop_down</i></a></li>
+  <li><a href="alumni.html" class="btn btn-header waves-effect waves-light lg" style="background-color: rgb(169, 3, 48)">Alumni <i class="material-icons right">face</i></a></li>
+</ul>
+
+<ul id="dropdown2" class="dropdown-content">
+  <li><a href="admission.html" >Admission</a></li>
+  <li><a href="facilities.html">Facilities</a></li>
+</ul>
+
+<div class="slider" >
+      <ul class="slides">
+              
+          <li><img src="images/every.jpg"></li>
+      </ul>
+  </div>
+</header>  
+
+
+<div class="container">
+  <div class="row">
+      <div class="col s12 l5">
+          <img src="images/ife.jpg" class="responsive-img">
+      </div>
+    <div class="hide-on-med-and-down">
+      <div class="col s12 l6 offset-l1" style="padding-top: 150px;">
+        <h5><b>AJAYI IFEOLUWA ENIOLA</b></h5>
+        <p class="">AGE:15<br>CLASS/DEPARTMENT: SS2(ART DEPARTMENT) <br>FUTURE AMBITION: JOURNALIST<br>HOBBIES: DRAWING,SINGING,TALKING AND PAPER DECORATING. </p> 
+    </div>
+    </div>
+    <div class="hide-on-large-only ">
+      <div class="col s12 l6 offset-l1 center-align">
+        <h5><b>AJAYI IFEOLUWA ENIOLA</b></h5>
+        <p>AGE:15<br>CLASS/DEPARTMENT: SS2(ART DEPARTMENT) <br>FUTURE AMBITION: JOURNALIST<br>HOBBIES: DRAWING,SINGING,TALKING AND PAPER DECORATING. </p> 
+    </div>
+    </div>
+  </div>
+  <br>
+  <div class="row">
+      <div class="col s12 l5 push-l6 offset-l1">
+          <img src="images/loveth.jpg" class="responsive-img"> 
+      </div>
+      <div class="hide-on-med-and-down">
+        <div class="col s12 l6  pull-l6" style="padding-top: 150px;">
+          <h5><b>OKAFOR CHINECHEREM LOVETH</b></h5>
+          <p class="">AGE:15<br>CLASS/DEPARTMENT: SS2(SCIENCE DEPARTMENT)<br> FUTURE AMBITION: PHARMACIST<br> HOBBIES: DANCING,SLEEPING AND DISCOVERING NEW THINGS.</p> 
+      </div>
+      </div>
+      <div class="hide-on-large-only">
+        <div class="col s12 l6  pull-l6 center-align">
+          <h5><b>OKAFOR CHINECHEREM LOVETH</b></h5>
+          <p>AGE:15<br>CLASS/DEPARTMENT: SS2(SCIENCE DEPARTMENT)<br> FUTURE AMBITION: PHARMACIST<br> HOBBIES: DANCING,SLEEPING AND DISCOVERING NEW THINGS.</p> 
+      </div>
+      </div>
+  </div>
+  <br>
+  <div class="row">
+      <div class="col s12 l5">
+          <img src="images/anu.jpg"class="responsive-img">
+      </div>
+      <div class="hide-on-med-and-down">
+        <div class="col s12 l6 offset-l1" style="padding-top: 150px;">
+          <h5><b>BAMIGBOYE ANU ZAINAB</b></h5>
+    <p class="">AGE:15<br>CLASS/DEPARTMENT: SS2(SCIENCE DEPARTMENT)<br> FUTURE AMBITION: SCIENCE LABORATORY<br> HOBBIES: DANCING,READING,SINGING,SLEEPING AND COOKING. </p> 
+      </div>
+      </div>
+      <div class="hide-on-large-only">
+        <div class="col s12 l6 offset-l1 center-align">
+          <h5><b>BAMIGBOYE ANU ZAINAB</b></h5>
+    <p>AGE:15<br>CLASS/DEPARTMENT: SS2(SCIENCE DEPARTMENT)<br> FUTURE AMBITION: SCIENCE LABORATORY<br> HOBBIES: DANCING,READING,SINGING,SLEEPING AND COOKING. </p> 
+      </div>
+      </div>
+  </div>
+  <br>
+  <div class="row">
+      <div class="col s12 l5 push-l6">
+          <img src="images/momore.jpg"class="responsive-img">
+      </div>
+      <div class="hide-on-med-and-down">
+        <div class="col s12 l6 pull-l6 offset-l1" style="padding-top: 150px;">
+          <h5><b>JOGUNOMI OLAMIDE MOMORE</b></h5>
+          <p class="">AGE:15<br> CLASS/DEPARTMENT: SS2(SCIENCE DEPARTMENT)<br> FUTURE AMBITION: MARINE ENGINEER<br> HOBBIES: SINGING,READING NOVELS, AND RESEARCHING</p>
+      </div>
+      </div>
+      <div class="hide-on-large-only">
+        <div class="col s12 l6 pull-l6 offset-l1 center-align">
+          <h5><b>JOGUNOMI OLAMIDE MOMORE</b></h5>
+          <p>AGE:15<br> CLASS/DEPARTMENT: SS2(SCIENCE DEPARTMENT)<br> FUTURE AMBITION: MARINE ENGINEER<br> HOBBIES: SINGING,READING NOVELS, AND RESEARCHING</p>
+      </div>
+      </div>
+  </div>
+  <br>
+<div class="row">
+  <div class="col s12 l5">
+      <img src="images/tope.jpg"class="responsive-img">
+  </div>
+  <div class="hide-on-med-and-down">
+    <div class="col s12 l6 offset-l1" style="padding-top: 150px;">
+      <h5><b>AKINTOLA TEMITOPE FERANMI</b></h5>
+      <p class="">AGE:14<br> CLASS/DEPARTMENT: SS2(SCIENCE DEPARTMENT)<br> FUTURE AMBITION: COMPUTER ENGINEER<br> HOBBIES: PLAYING,READING AND DESIGNING WEBSITE.</p>
+  </div>
+  </div>
+  <div class="hide-on-large-only">
+    <div class="col s12 l6 offset-l1 center-align">
+      <h5><b>AKINTOLA TEMITOPE FERANMI</b></h5>
+      <p>AGE:14<br> CLASS/DEPARTMENT: SS2(SCIENCE DEPARTMENT)<br> FUTURE AMBITION: COMPUTER ENGINEER<br> HOBBIES: PLAYING,READING AND DESIGNING WEBSITE.</p>
+  </div>
+  </div>
+  </div>
+  <br>
+  <div class="row">
+      <div class="col s12 l5 push-l6">
+          <img src="images/ebube.jpg"class="responsive-img">
+      </div>
+      <div class="hide-on-med-and-down">
+        <div class="col s12 l6 pull-l6 offset-l1" style="padding-top: 150px;">
+          <h5><b>ANYAENE EBUBECHUKWU M.J</b></h5>
+          <p class="">AGE:15<br> CLASS/DEPARTMENT: SS2(SCIENCE DEPARTMENT)<br> FUTURE AMBITION: ASTRONAUT<br> HOBBIES: DRAWING,READING, AND LISTENING TO MUSIC.</p>
+      </div>
+      </div>
+      <div class="hide-on-large-only">
+        <div class="col s12 l6 pull-l6 offset-l1 center-align">
+          <h5><b>ANYAENE EBUBECHUKWU M.J</b></h5>
+          <p>AGE:15<br> CLASS/DEPARTMENT: SS2(SCIENCE DEPARTMENT)<br> FUTURE AMBITION: ASTRONAUT<br> HOBBIES: DRAWING,READING, AND LISTENING TO MUSIC.</p>
+      </div>
+      </div>
+          
+  </div>
+   <br>
+  <div class="row">
+    <div class="col s12 l5">
+        <img src="images/gift.jpg" class="responsive-img">
+    </div>
+    <div class="hide-on-med-and-down">
+      <div class="col s12 l6 offset-l1" style="padding-top: 150px;">
+        <h5><b>AGBO GIFT CHINECHEREM</b></h5>
+        <p class="">AGE:15<br> CLASS/DEPARTMENT: SS2(SCIENCE DEPARTMENT)<br> FUTURE AMBITION: THERAPIST<br> HOBBIES: EXPLORING,DANCING AND SINGING. </p> 
+    </div>
+    </div>
+    <div class="hide-on-large-only">
+      <div class="col s12 l6 offset-l1 center-align">
+        <h5><b>AGBO GIFT CHINECHEREM</b></h5>
+        <p>AGE:15<br> CLASS/DEPARTMENT: SS2(SCIENCE DEPARTMENT)<br> FUTURE AMBITION: THERAPIST<br> HOBBIES: EXPLORING,DANCING AND SINGING. </p> 
+    </div>
+    </div>
+</div>
+<br>
+<div class="row">
+    <div class="col s12 l5 push-l6 offset-l1">
+        <img src="images/iyanu.jpg" class="responsive-img"> 
+    </div>
+    <div class="hide-on-med-and-down">
+      <div class="col s12 l6  pull-l6" style="padding-top: 150px;">
+        <h5><b>AKANBI IYANUOLUWA RUTH</b></h5>
+        <p class="">AGE:14<br> CLASS/DEPARTMENT: SS2(SCIENCE DEPARTMENT)<br> FUTURE AMBITION: MEDICAL DOCTOR<br> HOBBIES: READING,WRITING,AND DESIGNING.</p> 
+    </div>
+    </div>
+    <div class="hide-on-large-only">
+      <div class="col s12 l6  pull-l6 center-align">
+        <h5><b>AKANBI IYANUOLUWA RUTH</b></h5>
+        <p>AGE:14<br> CLASS/DEPARTMENT: SS2(SCIENCE DEPARTMENT)<br> FUTURE AMBITION: MEDICAL DOCTOR<br> HOBBIES: READING,WRITING,AND DESIGNING.</p> 
+    </div>
+    </div>
+</div>
+<br>
+<div class="row">
+    <div class="col s12 l5">
+        <img src="images/rodiat.jpg"class="responsive-img">
+    </div>
+    <div class="hide-on-med-and-down">
+      <div class="col s12 l6 offset-l1" style="padding-top: 150px;">
+        <h5><b>HASSAN RODIYAT OLUWATOSIN</b></h5>
+        <p class="">AGE:14<br> CLASS/DEPARTMENT: SS2(COMMERCIAL DEPARTMENT)<br> FUTURE AMBITION: BANKER AND INSURANCE BROKER<br> HOBBIES: WRITING AND READING.  </p> 
+    </div>
+    </div>
+    <div class="hide-on-large-only">
+      <div class="col s12 l6 offset-l1 center-align">
+        <h5><b>HASSAN RODIYAT OLUWATOSIN</b></h5>
+        <p>AGE:14<br> CLASS/DEPARTMENT: SS2(COMMERCIAL DEPARTMENT)<br> FUTURE AMBITION: BANKER AND INSURANCE BROKER<br> HOBBIES: WRITING AND READING.  </p> 
+    </div>
+    </div>
+</div>
+<br>
+<div class="row">
+    <div class="col s12 l5 push-l6">
+        <img src="images/daniella.jpg"class="responsive-img">
+    </div>
+    <div class="hide-on-med-and-down">
+      <div class="col s12 l6 pull-l6 offset-l1" style="padding-top: 150px;">
+        <h5><b>BENTHO OLUWASEUN DANIELLA</b></h5>
+        <p class="">AGE:14<br> CLASS/DEPARTMENT: SS2(COMMERCIAL DEPARTMENT)<br> FUTURE AMBITION: ACCOUNTANT<br> HOBBIES: READING AND WATCHING MOVIES.</p>
+    </div>
+    </div>
+    <div class="hide-on-large-only">
+      <div class="col s12 l6 pull-l6 offset-l1 center-align">
+        <h5><b>BENTHO OLUWASEUN DANIELLA</b></h5>
+        <p>AGE:14<br> CLASS/DEPARTMENT: SS2(COMMERCIAL DEPARTMENT)<br> FUTURE AMBITION: ACCOUNTANT<br> HOBBIES: READING AND WATCHING MOVIES.</p>
+    </div>
+    </div>
+</div>
+<br>
+<div class="row">
+<div class="col s12 l5">
+    <img src="images/chisom.jpg"class="responsive-img">
+</div>
+<div class="hide-on-med-and-down">
+  <div class="col s12 l6 offset-l1" style="padding-top: 150px;">
+    <h5><b>ANI CHISOM MIRACLE</b></h5>
+    <p class="">AGE:15<br> CLASS/DEPARTMENT: SS2(ART DEPARTMENT)<br> FUTURE AMBITION: DETECTIVE<br> HOBBIES: LISTENING TO MUSIC AND READING NOVELS.</p>
+</div>
+</div>
+<div class="hide-on-large-only">
+  <div class="col s12 l6 offset-l1 center-align">
+    <h5><b>ANI CHISOM MIRACLE</b></h5>
+    <p>AGE:15<br> CLASS/DEPARTMENT: SS2(ART DEPARTMENT)<br> FUTURE AMBITION: DETECTIVE<br> HOBBIES: LISTENING TO MUSIC AND READING NOVELS.</p>
+</div>
+</div>
+</div>
+<br>
+<div class="row">
+    <div class="col s12 l5 push-l6">
+        <img src="images/fathimah.jpg"class="responsive-img">
+    </div>
+    <div class="hide-on-med-and-down">
+      <div class="col s12 l6 pull-l6 offset-l1" style="padding-top: 150px;">
+        <h5><b>ABDULLAHI FATHIMAH GBEMISOLA</b></h5>
+        <p class="">AGE:14<br> CLASS/DEPARTMENT: SS2(COMMERCIAL DEPARTMENT)<br> FUTURE AMBITION: ACCOUNTANT<br> HOBBIES: SINGING AND READING.</p>
+    </div>
+    </div>
+    <div class="hide-on-large-only">
+      <div class="col s12 l6 pull-l6 offset-l1 center-align">
+        <h5><b>ABDULLAHI FATHIMAH GBEMISOLA</b></h5>
+        <p>AGE:14<br> CLASS/DEPARTMENT: SS2(COMMERCIAL DEPARTMENT)<br> FUTURE AMBITION: ACCOUNTANT<br> HOBBIES: SINGING AND READING.</p>
+    </div>
+    </div>
+        
+</div>
+<br>
+<div class="row">
+  <div class="col s12 l5">
+      <img src="images/hannah.jpg" class="responsive-img">
+  </div>
+      <div class="hide-on-med-and-down">
+      <div class="col s12 l6 offset-l1" style="padding-top: 150px;">
+      <h5><b>SHOREMEKUN HANNAH BUSAYO</b></h5>
+      <p class=""> AGE:14<br> CLASS/DEPARTMENT: SS2(ART DEPARTMENT)<br> FUTURE AMBITION: PROFESSOR-IN-ENGLISH<br> HOBBIES: WRITING,READING AND SINGING.</p> 
+    </div>
+    </div>
+    <div class="hide-on-large-only">
+      <div class="col s12 l6 offset-l1 center-align">
+      <h5><b>SHOREMEKUN HANNAH BUSAYO</b></h5>
+      <p> AGE:14<br> CLASS/DEPARTMENT: SS2(ART DEPARTMENT)<br> FUTURE AMBITION: PROFESSOR-IN-ENGLISH<br> HOBBIES: WRITING,READING AND SINGING.</p> 
+    </div>
+    </div>
+</div>
+<br>
+<div class="row">
+  <div class="col s12 l5 push-l6 offset-l1">
+      <img src="images/chiamaka.jpg" class="responsive-img"> 
+  </div>
+        <div class="hide-on-med-and-down">
+      <div class="col s12 l6  pull-l6" style="padding-top: 150px;">
+      <h5><b>UGWUODO CHIAMAKA IMMACULATA</b></h5>
+      <p class="">AGE:15<br> CLASS/DEPARTMENT: SS2(SCIENCE DEPARTMENT)<br> FUTURE AMBITION: GYNAECOLOGIST<br> HOBBIES: EXPLORING,DANCING AND SINGING.</p> 
+    </div>
+    </div>
+    <div class="hide-on-large-only">
+      <div class="col s12 l6  pull-l6 center-align">
+      <h5><b>UGWUODO CHIAMAKA IMMACULATA</b></h5>
+      <p>AGE:15<br> CLASS/DEPARTMENT: SS2(SCIENCE DEPARTMENT)<br> FUTURE AMBITION: GYNAECOLOGIST<br> HOBBIES: EXPLORING,DANCING AND SINGING.</p> 
+    </div>
+    </div>
+</div>
+<br>
+<div class="row">
+  <div class="col s12 l5">
+      <img src="images/elizabeth.jpg"class="responsive-img">
+  </div>
+   <div class="hide-on-med-and-down">
+      <div class="col s12 l6 offset-l1" style="padding-top: 150px;">
+      <h5><b>AJUMO ELIZABETH OLUWATOYOSIN </b></h5>
+      <p class="">AGE:14<br> CLASS/DEPARTMENT: SS2(SCIENCE DEPARTMENT)<br> FUTURE AMBITION: COMPUTER ENGINEER<br> HOBBIES: READING,LISTENING TO GOOD VIBEZ... </p> 
+    </div>
+    </div>
+    <div class="hide-on-large-only">
+      <div class="col s12 l6 offset-l1 center-align">
+      <h5><b>AJUMO ELIZABETH OLUWATOYOSIN </b></h5>
+      <p>AGE:14<br> CLASS/DEPARTMENT: SS2(SCIENCE DEPARTMENT)<br> FUTURE AMBITION: COMPUTER ENGINEER<br> HOBBIES: READING,LISTENING TO GOOD VIBEZ... </p> 
+    </div>
+    </div>
+</div>
+<br>
+<div class="row">
+  <div class="col s12 l5 push-l6">
+      <img src="images/rofiat.jpg"class="responsive-img">
+  </div>
+     <div class="hide-on-med-and-down">
+      <div class="col s12 l6 pull-l6 offset-l1" style="padding-top: 150px;">
+      <h5><b>HASSAN ROFIAT OLUWAKEMI</b></h5>
+      <p class="">AGE:15<br> CLASS/DEPARTMENT: SS2(COMMERCIAL DEPARTMENT)<br> FUTURE AMBITION: BUSINESS WOMAN<br> HOBBIES: DANCING AND SINGING..</p>
+    </div>
+    </div>
+    <div class="hide-on-large-only">
+      <div class="col s12 l6 pull-l6 offset-l1 center-align">
+      <h5><b>HASSAN ROFIAT OLUWAKEMI</b></h5>
+      <p>AGE:15<br> CLASS/DEPARTMENT: SS2(COMMERCIAL DEPARTMENT)<br> FUTURE AMBITION: BUSINESS WOMAN<br> HOBBIES: DANCING AND SINGING..</p>
+    </div>
+    </div>
+</div>
+<br>
+<div class="row">
+<div class="col s12 l5">
+  <img src="images/roheemot.jpg"class="responsive-img">
+</div>
+     <div class="hide-on-med-and-down">
+      <div class="col s12 l6 offset-l1" style="padding-top: 150px;">
+  <h5><b>YEKEEN ROHEEMOT BOLUWATIFE</b></h5>
+  <p class="">AGE:15<br> CLASS/DEPARTMENT: SS2(SCIENCE DEPARTMENT)<br> FUTURE AMBITION: COMPUTER ENGINEER<br> HOBBIES: SOLVING TECHNICAL PROBLEMS AND READING.</p>
+    </div>
+    </div>
+    <div class="hide-on-large-only">
+      <div class="col s12 l6 offset-l1 center-align">
+  <h5><b>YEKEEN ROHEEMOT BOLUWATIFE</b></h5>
+  <p>AGE:15 <br> CLASS/DEPARTMENT: SS2(SCIENCE DEPARTMENT)<br> FUTURE AMBITION: COMPUTER ENGINEER<br> HOBBIES: SOLVING TECHNICAL PROBLEMS AND READING.</p>
+    </div>
+    </div>
+</div>
+<br>
+<div class="row">
+  <div class="col s12 l5 push-l6">
+      <img src="images/rasheedat.jpg"class="responsive-img">
+  </div>
+       <div class="hide-on-med-and-down">
+      <div class="col s12 l6 pull-l6 offset-l1" style="padding-top: 150px;">
+      <h5><b>OLATEJU RASHEEDAT ABIKE</b></h5>
+      <p class="">AGE:15<br> CLASS/DEPARTMENT: SS2(SCIENCE DEPARTMENT)<br> FUTURE AMBITION: SURGEON<br> HOBBIES: READING AND DANCING.</p>
+  </div>
+    </div>
+    <div class="hide-on-large-only">
+      <div class="col s12 l6 pull-l6 offset-l1 center-align">
+      <h5><b>OLATEJU RASHEEDAT ABIKE</b></h5>
+      <p>AGE:15<br> CLASS/DEPARTMENT: SS2(SCIENCE DEPARTMENT)<br> FUTURE AMBITION: SURGEON<br> HOBBIES: READING AND DANCING.</p>
+  </div>
+    </div>
+    </div>
+<br>
+<div class="row">
+  <div class="col s12 l5">
+      <img src="images/bolu.jpg" class="responsive-img">
+  </div>
+         <div class="hide-on-med-and-down">
+      <div class="col s12 l6 offset-l1" style="padding-top: 150px;">
+      <h5><b>OLUSEGUN BOLUWATIFE VICTORIA</b></h5>
+      <p class="">AGE:14<br> CLASS/DEPARTMENT: SS2(COMMERCIAL DEPARTMENT)<br> FUTURE AMBITION:BUSINESS ADMINISTRATION<br> HOBBIES:WRITING AND DANCING.</p> 
+  </div>
+    </div>
+    <div class="hide-on-large-only">
+      <div class="col s12 l6 offset-l1 center-align">
+      <h5><b>OLUSEGUN BOLUWATIFE VICTORIA</b></h5>
+      <p>AGE:14<br> CLASS/DEPARTMENT: SS2(COMMERCIAL DEPARTMENT)<br> FUTURE AMBITION:BUSINESS ADMINISTRATION<br> HOBBIES:WRITING AND DANCING.</p> 
+  </div>
+  </div>
+    </div>
+<br>
+<div class="row">
+  <div class="col s12 l5 push-l6">
+      <img src="images/ikimot.jpg"class="responsive-img">
+  </div>
+           <div class="hide-on-med-and-down">
+      <div class="col s12 l6 pull-l6 offset-l1" style="padding-top: 150px;">
+      <h5><b>JEBE IKIMOT AYOMIDE</b></h5>
+      <p class="">AGE:14<br> CLASS/DEPARTMENT: SS2(ART DEPARTMENT)<br> FUTURE AMBITION: JOURNALIST<br> HOBBIES: EXPLORING AND MAKING NEW FRIENDS.</p>
+    </div>
+    </div>
+    <div class="hide-on-large-only">
+      <div class="col s12 l6 pull-l6 offset-l1 center-align">
+      <h5><b>JEBE IKIMOT AYOMIDE</b></h5>
+      <p>AGE:14<br> CLASS/DEPARTMENT: SS2(ART DEPARTMENT)<br> FUTURE AMBITION: JOURNALIST<br> HOBBIES: EXPLORING AND MAKING NEW FRIENDS.</p>
+  </div>
+  </div>
+</div>
+<br>
+<div class="row">
+  <div class="col s12 l5 ">
+      <img src="images/idera.jpg"class="responsive-img">
+  </div>
+             <div class="hide-on-med-and-down">
+      <div class="col s12 l6 offset-l1" style="padding-top: 150px;">
+      <h5><b>ADETUNJI NIMOTALLAHI IDERA</b></h5>
+      <p class=""> AGE:15<br> CLASS/DEPARTMENT: SS2(COMMERCIAL DEPARTMENT)<br> FUTURE AMBITION: ACCOUNTANT <br> HOBBIES: DANCING AND READING.</p>
+    </div>
+    </div>
+    <div class="hide-on-large-only">
+      <div class="col s12 l6 offset-l1 center-align">
+      <h5><b>ADETUNJI NIMOTALLAHI IDERA</b></h5>
+      <p> AGE:15<br> CLASS/DEPARTMENT: SS2(COMMERCIAL DEPARTMENT)<br> FUTURE AMBITION: ACCOUNTANT <br> HOBBIES: DANCING AND READING.</p>
+  </div>
+  </div>
+</div>
+<br>
+<div class="row">
+<div class="col s12 l5 push-l6">
+  <img src="images/amarachi.jpg"class="responsive-img">
+</div>
+             <div class="hide-on-med-and-down">
+      <div class="col s12 l6 pull-l6 offset-l1" style="padding-top: 150px;">
+  <h5><b>OKAFOR AMARACHI ESTHER</b></h5>
+  <p class="">AGE:17<br> CLASS/DEPARTMENT: SS2(ART DEPARTMENT)<br> FUTURE AMBITION: FASHION DESIGNINER <br> HOBBIES: DANCING AND READING.</p>
+    </div>
+    </div>
+    <div class="hide-on-large-only">
+      <div class="col s12 l6 pull-l6 offset-l1 center-align">
+  <h5><b>OKAFOR AMARACHI ESTHER</b></h5>
+  <p>AGE:17<br> CLASS/DEPARTMENT: SS2(ART DEPARTMENT)<br> FUTURE AMBITION: FASHION DESIGNINER <br> HOBBIES: DANCING AND READING.</p>
+  </div>
+  </div>
+</div>
+<br>
+<div class="row">
+  <div class="col s12 l5">
+    <img src="images/azeezat.jpg"class="responsive-img">
+  </div>
+         <div class="hide-on-med-and-down">
+        <div class="col s12 l6 offset-l1" style="padding-top: 150px;">
+    <h5><b>ASUBIOJO AZEEZAT</b></h5>
+    <p class="">AGE:16<br> CLASS/DEPARTMENT: SS2(COMMERCIAL DEPARTMENT)<br> FUTURE AMBITION: ACCOUNTANT <br> HOBBIES: BAKING AND COOKING.</p>
+      </div>
+      </div>
+      <div class="hide-on-large-only">
+        <div class="col s12 l6 offset-l1 center-align">
+    <h5><b>ASUBIOJO AZEEZAT</b></h5>
+    <p>AGE:16<br> CLASS/DEPARTMENT: SS2(COMMERCIAL DEPARTMENT)<br> FUTURE AMBITION: ACCOUNTANT <br> HOBBIES: BAKING AND COOKING.</p>
+    </div>
+    </div>
+  </div>
+  <br>
+</div>
+
+<footer class="page-footer" style="background-color: rgb(169, 3, 48);">
+  <div class="container">
+     <div class="row">
+          <div class="col s12 l4">
+              <h5>About S.G.S.S.S</h5>
+              <p style="text-align: justify !important;">This is a website created by young girls, to tell people more about the school.</p>
+          </div>
+          <div class="col s12 l3 offset-l1">
+              <h5>Connect</h5>
+              <a class="icon" href="#" style="color:  rgb(169, 3, 48);"><i class="fab fa-facebook-f"></i></a>
+              <a class="icon" href="#" style="color:  rgb(169, 3, 48);"><i class="fab fa-twitter"></i></a>
+              <a class="icon" href="#" style="color:  rgb(169, 3, 48);"><i class="fab fa-linkedin"></i></a>
+              <a class="icon" href="#" style="color:  rgb(169, 3, 48);"><i class="fab fa-google"></i></a>
+              <a class="icon" href="#" style="color:  rgb(169, 3, 48);"><i class="fab fa-instagram"></i></a>
+          </div>
+           <div class="col s12 l4">
+              <h5>Contact</h5>
+              <p>15b Agege Motor road,<br>Moshalashi,<br>Lagos.</p>
+          </div>
+     </div>
+  </div>
+  <div class="footer-copyright" style="background-color:rgb(27, 25, 25);">
+      <div class="container">
+              <p class="center-align">&copy; 2024 Designed by S.G.S.S.S students. All rights reserved</p>
+      </div>
+  </div>
+</footer>
+
+<!-- Scripts for Materialize components -->
+<script src="js/jquery.js"></script>
+<script src="js/materialize.min.js"></script>
+
+<script>
+  $(document).ready(function(){
+    // Initialize sidenav
+    $('.sidenav').sidenav({
+      onOpenStart: function() {
+        $('body').addClass('sidenav-open'); // Add class when sidenav opens
+      },
+      onCloseEnd: function() {
+        $('body').removeClass('sidenav-open'); // Remove class when sidenav closes
+      }
+    });
+    
+    // Initialize parallax
+    $('.parallax').parallax(); 
+    
+    // Initialize other components
+    $('.materialboxed').materialbox();
+    $('.tabs').tabs();
+    $('.datepicker').datepicker({
+      disableWeekends: true,
+      yearRange: 1
+    });
+    $('.tooltipped').tooltip();
+    $('.scrollspy').scrollSpy();
+    $('.slider').slider(); 
+    $('.tap-target').tapTarget();
+    $('.modal').modal();
+
+    // Force a repaint on window resize
+    $(window).on('resize', function() {
+      $('nav').hide().show(0); // Force nav redraw
+      $('.parallax').parallax(); // Reinitialize parallax on resize
+    });
+  });
+
+  document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.dropdown-trigger');
+    var instances = M.Dropdown.init(elems, {
+      coverTrigger: false,
+      alignment: 'right'
+    });
+  });
+</script>
+
+</body>
+</html>

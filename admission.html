@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>ADMISSION</title>
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/materialize.min.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Gabriela&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+
+
+  <style>
+ .star-list {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      font-family: Arial, sans-serif;
+      color: #333;
+    }
+
+    /* Styling for each list item */
+    .star-list li {
+      position: relative;
+      padding-left: 30px; /* Space for the star icon */
+      margin-bottom: 10px;
+      font-size: 18px;
+      color: #555;
+    }
+
+    /* Adding the star icon using CSS before each item */
+    .star-list li::before {
+      content: "★";
+      position: absolute;
+      left: 0;
+      top: 0;
+      color: rgb(169, 3, 48); /* Gold color for the star */
+      font-size: 20px;
+    }
+
+    body{
+       font-family: Gabriela, serif;
+font-weight: 400;
+font-style: normal; line-height: 1.5;
+    }
+    .parallax-container{
+background-color: rgb(169, 3, 48);
+    }
+
+    .dropdown-content {
+      position: absolute !important;
+      top: 65px !important;
+      z-index: 9999 !important;
+    }
+
+    .lg {
+      border-radius: 35px;
+    }
+
+    /* Navigation bar on top of parallax */
+    nav {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      z-index: 1000;
+    }
+
+    /* Navigation font style */
+    nav a {
+      font-family: 'Merriweather', serif; /* You can also try 'Playfair Display' */
+      font-size: 1.2rem;
+      font-weight: 700;
+      letter-spacing: 1px;
+    }
+    .dropdown-content li>a, .dropdown-content li>span {
+      font-size: 16px;
+      color: black;
+      display: block;
+      line-height: 22px;
+      padding: 14px 16px;
+    }
+
+    .para-text{
+    padding: 170px;
+    color: white !important;
+    font-weight: 300;
+    font-family: 'Playfair Display', serif;
+    font-size: 3rem;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4); /* Adds depth */
+    text-align: center;
+    letter-spacing: 2px;
+    
+    
+}
+    /* Hide main menu when sidenav is open */
+    .sidenav-open nav {
+      display: none; /* Hide the navigation when sidenav is open */
+    }
+
+    .justify{
+      text-align: justify;
+    }
+    .subjects{
+      font-family: 'Times New Roman', Times, serif;
+      font-size: 20px;
+      color:rgb(169, 3, 48);
+    }
+    
+  
+  </style>
+</head>
+
+<body>
+
+<header>
+
+<nav class="z-depth-0" style="background-color: grey;">
+  <div class="container">
+    <div class="nav-wrapper">
+      <a href="#!" class="brand-logo"><span style="color: rgb(169, 3, 48)">Surulere </span>Girls</a>
+      <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons" style="color: rgb(169, 3, 48);">menu</i></a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html" >About</a></li>
+        <li><a class="dropdown-trigger" href="#!" data-target="dropdown1">Academics<i class="material-icons right">arrow_drop_down</i></a></li>
+        <li><a href="alumni.html" class="btn btn-header waves-effect waves-light lg" style="background-color: rgb(169, 3, 48)">Alumni <i class="material-icons right">face</i></a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Dropdown Structure -->
+<ul id="dropdown1" class="dropdown-content">
+  <li><a href="admission.html" style="background-color: grey">Admission</a></li>
+  <li class="divider"></li>
+  <li><a href="facilities.html">Facilities</a></li>
+</ul>
+
+<ul class="sidenav" id="mobile-demo">
+  <li><a href="index.html">Home</a></li>
+  <li><a href="about.html">About</a></li>
+  <li><a class="dropdown-trigger" href="#!" data-target="dropdown2">Academics<i class="material-icons right">arrow_drop_down</i></a></li>
+  <li><a href="alumni.html" class="btn btn-header waves-effect waves-light lg" style="background-color: rgb(169, 3, 48)">Alumni <i class="material-icons right">face</i></a></li>
+</ul>
+
+<ul id="dropdown2" class="dropdown-content">
+  <li><a href="admission.html" style="color: rgb(169, 3, 48)">Admission</a></li>
+  <li><a href="facilities.html">Facilities</a></li>
+</ul>
+
+<div class="parallax-container para">
+
+  <div class="parallax">
+      <img src="https://media2.mensxp.com/media/content/2019/Jan/header-live-well-physio-1548429032_1100x513.jpg" alt="">
+  </div>
+  <h3 class="center-align para-text">Our Admission Page</h3>
+  
+</div>
+</header> 
+
+      <div class="container">
+        <h3 class="center-align" style="color:grey;">MESSAGE FROM THE PRINCIPAL</h3>
+          <div class="row">
+              <div class="col s12 m12 l6 " style="padding-top: 20px;">
+        <div class="card">
+        <div class="card-image">
+          <img src="images/PRINCI.jpg" class="responsive-img materialboxed">
+        </div>
+        <div class="card-action">
+        <span style="color: rgb(169, 3, 48); font-size: 20px;" > MRS ADERIBIGBE FOLASHADE F.</span> 
+        </div>
+      </div>
+
+
+              </div>
+              <div class="col s12 m12 l5 offset-l1 justify">
+                  <p class="bleach"><br>
+                   <span style="color: rgb(169, 3, 48); font-size: 20px;"> Dear Students, Parents, and Staff,</span><br>
+                    Welcome to Surulere Girls Senior Secondary School. As we embark on another exciting academic year, I want to take a moment to express my gratitude for the incredible community we have built together. Our commitment to fostering a safe, inclusive, and engaging learning environment remains our top priority.<br>
+                    
+                    This year, we are focused on enhancing our educational programs, encouraging creativity, and promoting critical thinking skills. We believe that every student has the potential to excel, and we are dedicated to supporting each child on their individual journey.<br>
+                    
+                    I encourage parents to stay involved and participate in school activities. Your support and engagement make a significant difference in our students' success. Together, we can create a positive and inspiring atmosphere for all.<br>
+                    
+                    Thank you for being a part of the Surulere Girls Senior Secondary School family. Let's make this year one of growth, achievement, and lasting memories!<br><br>
+                    
+                    Warm regards,<br>
+                    
+                    Mrs Aderibigbe Folashade
+                  </p>
+              </div>
+          </div>
+      </div>
+
+      <section class="menu section">
+        <section id="menu" style="padding-top: 50px;" class="scrollspy">
+        <div class="container">
+          <div class="subjects">
+            <h4 class="center-align "class="subject">SUBJECTS OFFERED IN EACH DEPARTMENT</h4>
+          </div>
+            <div class="row">
+                    <ul class="tabs center" style="margin-bottom: 15px;">
+                        <li class="tab"><a href="#SCIENCE">SCIENCE</a></li>
+                        <li class="tab"><a href="#ART">ART</a></li>
+                        <li class="tab"><a href="#COMMERCIAL">COMMERCIAL</a></li>
+            
+                    </ul>
+
+                    <div id="SCIENCE">
+                        <div class="col m6 s12 l4" >
+                          <table>
+                          <tbody>
+                            <tr>
+                              <td>ENGLISH-LANGUAGE</td>
+                            </tr>
+                            <tr>
+                              <td>MATHEMATICS</td>
+                            </tr>
+                            <tr>
+                              <td>PHYSICS</td>
+                            </tr>
+                            </tr>
+                              <td>CHEMISTRY</td>
+                            </tr>
+                            </tr>
+                              <td>BIOLOGY</td>
+                            </tr>
+                            </tr>
+                              <td>FURTHER-MATHEMATICS</td>
+                            </tr>
+                            </tr>
+                              <td>CIVIC-EDUCATION</td>
+                            </tr>
+                          </tr>
+                          <td>ECONOMICS/GEOGRAPHY</td>
+                        </tr>
+                      </tr>
+                      <td>TRADE & VOCATIONAL SUBJECTS</td>
+                    </tr>
+                  </table>
+                    </div>
+                    </div>
+
+                    <div id="ART">
+                      <div class="col m6 s12 l4">
+                        <table>
+                        <tbody>
+                          <tr>
+                            <td>ENGLISH-LANGUAGE</td>
+                          </tr>
+                          <tr>
+                            <td>MATHEMATICS</td>
+                          </tr>
+                          <tr>
+                            <td>LITERATURE-IN-ENGLISH</td>
+                          </tr>
+                          </tr>
+                            <td>GOVERNMENT</td>
+                          </tr>
+                          </tr>
+                            <td>CRS/IRS</td>
+                          </tr>
+                          </tr>
+                            <td>NIGERIAN-LANGUAGES</td>
+                          </tr>
+                          </tr>
+                            <td>CIVIC EDUCATION</td>
+                          </tr>
+                        </tr>
+                        <td>ECONOMICS</td>
+                      </tr>
+                    </tr>
+                    <td>TRADE & VOCATIONAL SUBJECTS</td>
+                  </tr>
+                  <tr>
+                    <td>BIOLOGY</td>
+                  </tr>
+                  <tr>
+                    <td>HISTORY</td>
+                  </tr>
+                </table>
+                  </div>
+                  </div>
+
+                  <div id="COMMERCIAL">
+                    <div class="col m6 s12 l4">
+                      <table>
+                      <tbody>
+                        <tr>
+                          <td>ENGLISH-LANGUAGE</td>
+                        </tr>
+                        <tr>
+                          <td>MATHEMATICS</td>
+                        </tr>
+                        <tr>
+                          <td>COMMERCE</td>
+                        </tr>
+                        </tr>
+                          <td>FINANCIAL ACCOUNTING</td>
+                        </tr>
+                        </tr>
+                          <td>BIOLOGY</td>
+                        </tr>
+                        </tr>
+                          <td>GOVERNMENT</td>
+                        </tr>
+                        </tr>
+                          <td>CIVIC EDUCATION</td>
+                        </tr>
+                      </tr>
+                      <td>ECONOMICS</td>
+                    </tr>
+                  </tr>
+                  <td>TRADE & VOCATIONAL SUBJECTS</td>
+                </tr>
+                <tr>
+                  <td>NIGERIAN-LANGUAGES</td>
+                </tr>
+                <tr>
+                  <td>HISTORY</td>
+                </tr>
+            </table>
+                </div>
+                </div>
+        </section>
+      </section>
+
+      
+      <section style="background-color: grey; padding: 40px;">
+      <h5 class="center-align" class="subject" style="color: rgb(169, 3, 48); font-size: 20px;">REQUIRED DOCUMENTS FOR ADMISSION INTO S.G.S.S.S</h5>
+  
+      <div class="container">
+        <ul class="collection">
+            <li class="collection-item">
+                <div>
+                  BIRTH CERTIFICATE
+                    <a class="secondary-content"><i class="material-icons" style= "color:grey">account_circle</i></a>
+                </div>
+            </li>
+            <li class="collection-item">
+                <div>
+                  NATIONAL IDENTIFICATION NUMBER (NIN)
+                    <a  class="secondary-content"><i class="material-icons" style= "color:grey">book</i></a>
+                </div>
+            </li>
+            <li class="collection-item">
+                <div>
+                  EVIDENCE OF LASRAA REGISTERATION
+                    <a class="secondary-content"><i class="material-icons" style= "color:grey">assignment_ind</i></a>
+                </div>
+            </li>
+            <li class="collection-item">
+              <div>
+                TAX CLEARANCE OF PARENTS/GUARDIAN
+                  <a  class="secondary-content"><i class="material-icons" style= "color:grey">contact_mail</i></a>
+              </div>
+          </li>
+          <li class="collection-item">
+            <div>
+              BECE RESULT (photocopy)
+                <a class="secondary-content"><i class="material-icons" style= "color:grey">description</i></a>
+            </div>
+        </li>
+        <li class="collection-item">
+          <div>
+            TESTIMONIAL (photocopy)
+              <a  class="secondary-content"><i class="material-icons" style= "color:grey">insert_photo</i></a>
+          </div>
+          <li class="collection-item">
+            <div>
+              SCHOOL UNIFORM (wine skirt and grey shirt)
+                <a class="secondary-content"><i class="fas fa-tshirt" style= "color:grey"></i></a>
+            </div>
+        </li>
+        <li class="collection-item">
+          <div>
+            SCHOOL BADGE
+              <a class="secondary-content"><i class="fas fa-user-shield" style= "color:grey"></i></a>
+          </div>
+      </li>
+      <li class="collection-item">
+        <div>
+          SCHOOL TIE
+            <a class="secondary-content"><i class="fas fa-user-tie" style= "color:grey"></i></a>
+        </div>
+    </li>
+    <li class="collection-item">
+      <div>
+        SCHOOL CAP/BERET
+          <a class="secondary-content"><i class="fas fa-hat-cowboy" style= "color:grey"></i></a>
+      </div>
+      <li class="collection-item">
+        <div>
+          LIGHT GREY SOCKS
+            <a class="secondary-content"><i class="fas fa-socks" style= "color:grey"></i></a>
+        </div>
+    </li>
+    
+  </li>
+        </ul>
+    </div>
+  </section>
+    <br><br><br><br><br>
+
+     <h4 class="center-align" style="color: rgb(169, 3, 48)" >ADMISSION PROCESS</h4>
+     <div class="container" >
+      <ul class="star-list" style=" font-family: Gabriela, serif;
+      font-weight: 400;
+      font-style: normal; line-height: 1.5; font-size: 17px;">
+        <li> Collect the application form from the school’s website or admissions office.</li>
+        <li> Submission: Documents Required, Submit the application form along with required documents</li>
+        <li> Preparation: Prepare for any entrance exams that the school may require.</li>
+        <li>Attend Exam: Take the entrance exam on the specified date.</li>
+        
+      </ul>
+    </div>
+
+    <br><br><br><br><br>
+          <footer class="page-footer" style="background-color:grey">
+            <div class="container">
+               <div class="row">
+                    <div class="col s12 l4">
+                        <h5>About S.G.S.S.S</h5>
+                        <p style="text-align: justify !important;">This is a website created by young girls, to tell people more about the school.</p>
+                    </div>
+                    <div class="col s12 l3 offset-l1">
+                        <h5>Connect</h5>
+                        <a class="icon" href="#" style="color:  rgb(169, 3, 48);"><i class="fab fa-facebook-f"></i></a>
+                        <a class="icon" href="#" style="color:  rgb(169, 3, 48);"><i class="fab fa-twitter"></i></a>
+                        <a class="icon" href="#" style="color:  rgb(169, 3, 48);"><i class="fab fa-linkedin"></i></a>
+                        <a class="icon" href="#" style="color:  rgb(169, 3, 48);"><i class="fab fa-google"></i></a>
+                        <a class="icon" href="#" style="color:  rgb(169, 3, 48);"><i class="fab fa-instagram"></i></a>
+                    </div>
+                     <div class="col s12 l4">
+                        <h5>Contact</h5>
+                        <p>15b Agege Motor road,<br>Moshalashi,<br>Lagos.</p>
+                    </div>
+               </div>
+            </div>
+            <div class="footer-copyright" style="background-color: rgb(169, 3, 48);">
+                <div class="container">
+                        <p class="center-align">&copy; 2024 Designed by S.G.S.S.S students. All rights reserved</p>
+                </div>
+            </div>
+        </footer>
+      
+<!-- Scripts for Materialize components -->
+<script src="js/jquery.js"></script>
+<script src="js/materialize.min.js"></script>
+
+<script>
+  $(document).ready(function(){
+    // Initialize sidenav
+    $('.sidenav').sidenav({
+      onOpenStart: function() {
+        $('body').addClass('sidenav-open'); // Add class when sidenav opens
+      },
+      onCloseEnd: function() {
+        $('body').removeClass('sidenav-open'); // Remove class when sidenav closes
+      }
+    });
+    
+    // Initialize parallax
+    $('.parallax').parallax(); 
+    
+    // Initialize other components
+    $('.materialboxed').materialbox();
+    $('.tabs').tabs();
+    $('.datepicker').datepicker({
+      disableWeekends: true,
+      yearRange: 1
+    });
+    $('.tooltipped').tooltip();
+    $('.scrollspy').scrollSpy();
+    $('.slider').slider(); 
+    $('.tap-target').tapTarget();
+    $('.modal').modal();
+
+    // Force a repaint on window resize
+    $(window).on('resize', function() {
+      $('nav').hide().show(0); // Force nav redraw
+      $('.parallax').parallax(); // Reinitialize parallax on resize
+    });
+  });
+
+  document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.dropdown-trigger');
+    var instances = M.Dropdown.init(elems, {
+      coverTrigger: false,
+      alignment: 'right'
+    });
+  });
+</script>
+
+</body>
+</html>

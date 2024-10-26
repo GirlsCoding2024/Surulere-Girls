@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Facilities</title>
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/materialize.min.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Gabriela&display=swap" rel="stylesheet">
+
+  <style>
+body{ 
+font-family: Gabriela, serif;
+font-weight: 400;
+font-style: normal; line-height: 1.5; font-size: 17px;
+}
+    .dropdown-content {
+      position: absolute !important;
+      top: 65px !important;
+      z-index: 9999 !important;
+    }
+
+    .lg {
+      border-radius: 35px;
+    }
+
+    /* Navigation bar on top of parallax */
+    nav {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      z-index: 1000;
+    }
+
+    /* Navigation font style */
+    nav a {
+      font-family: 'Merriweather', serif; /* You can also try 'Playfair Display' */
+      font-size: 1.2rem;
+      font-weight: 700;
+      letter-spacing: 1px;
+    }
+    .dropdown-content li>a, .dropdown-content li>span {
+      font-size: 16px;
+      color: black;
+      display: block;
+      line-height: 22px;
+      padding: 14px 16px;
+    }
+
+    /* Hide main menu when sidenav is open */
+    .sidenav-open nav {
+      display: none; /* Hide the navigation when sidenav is open */
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+
+<nav class="z-depth-0" style="background-color: grey;">
+  <div class="container">
+    <div class="nav-wrapper">
+      <a href="#!" class="brand-logo"><span style="color: rgb(169, 3, 48)">Surulere </span>Girls</a>
+      <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons" style="color: rgb(169, 3, 48);">menu</i></a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html" >About</a></li>
+        <li><a class="dropdown-trigger" href="#!" data-target="dropdown1">Academics<i class="material-icons right">arrow_drop_down</i></a></li>
+        <li><a href="alumni.html" class="btn btn-header waves-effect waves-light lg" style="background-color: rgb(169, 3, 48)">Alumni <i class="material-icons right">face</i></a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Dropdown Structure -->
+<ul id="dropdown1" class="dropdown-content">
+  <li><a href="admission.html">Admission</a></li>
+  <li class="divider"></li>
+  <li><a href="facilities.html" style="background-color: grey">Facilities</a></li>
+</ul>
+
+<ul class="sidenav" id="mobile-demo">
+  <li><a href="index.html">Home</a></li>
+  <li><a href="about.html">About</a></li>
+  <li><a class="dropdown-trigger" href="#!" data-target="dropdown2">Academics<i class="material-icons right">arrow_drop_down</i></a></li>
+  <li><a href="alumni.html" class="btn btn-header waves-effect waves-light lg" style="background-color: rgb(169, 3, 48)">Alumni <i class="material-icons right">face</i></a></li>
+</ul>
+
+<ul id="dropdown2" class="dropdown-content">
+  <li><a href="admission.html" >Admission</a></li>
+  <li><a href="facilities.html" style="color: rgb(169, 3, 48)">Facilities</a></li>
+</ul>
+
+
+</header>  
+
+<div class="container">
+
+
+  <div class="row">
+    <h4 style="margin-top: 85px;">FACILITIES</h4>
+    <div class="col l4 s12 m12">
+      <div class="card">
+        <div class="card-image">
+          <img src="images/biology.jpg" style="filter:brightness(0.5) ;">
+          <span class="card-title">Biology laboratory</span>
+        </div>
+        <div class="card-content" style=" font-size: 14px;" >
+        <p>Our Biology lab has workbenches with sink, water faucet, and reagent rack. These Lab benches can also have base cabinets to store glassware, apparatus etc. Special cabinets are used to store chemicals. Workbenches are fitted with necessary water and gas connections.</p>
+        </div>
+      </div>
+    </div>
+
+
+ 
+      <div class="col s12 m12 l4">
+        <div class="card">
+          <div class="card-image">
+            <img src="images/physics.jpg" style="filter:brightness(0.5) ;">
+            <span class="card-title">Physics Laboratory</span>
+          </div>
+          <div class="card-content" style=" font-size: 14px;">
+          
+          <p>Our modern physics lab is equipped with a wide array of diverse scientific instruments, ranging from simple devices to complex machinery. These tools facilitate accurate measurements and thorough exploration of variations in physical properties and precision during experiments.</p>    
+          </div>
+        </div>
+      </div>
+
+
+    <div class="col l4 s12 m12">
+      <div class="card">
+        <div class="card-image">
+          <img src="images/chemistry.jpg" style="filter:brightness(0.5) ;">
+          <span class="card-title">Chemistry Lab</span>
+        </div>
+        <div class="card-content" style=" font-size: 14px;">
+          <p>This laboratory has all the necessary equipment for preparation of samples and standards for various analyses of liquid and solid samples. The laboratory houses traditional equipment including glassware. The laboratory consists of fume hoods, aggregate mills and ovens.</p>
+        </div>
+      </div>
+    </div>
+
+    </div>
+
+
+    <div class="row">
+      <div class="col l4 s12 m12">
+        <div class="card">
+          <div class="card-image">
+            <img src="images/ict.jpg">
+            <span class="card-title">ICT Laboratory</span>
+          </div>
+          <div class="card-content" style="font-size: 14px;">
+            <p>Our Schoolnet ICT Lab equipment includes computers, monitors, keyboards, disk drives, modems, printers, scanners, cameras, speakers, and multimedia projectors like Kyan, Whiteboard, and Chromebooks which provides the students a conducive environment for learning. </p>
+          </div>
+        </div>
+      </div>
+  
+
+      <div class="col l4 s12 m12">
+        <div class="card">
+          <div class="card-image">
+            <img src="images/students.jpg">
+            <span class="card-title">Class room</span>
+          </div>
+          <div class="card-content" style=" font-size: 14px;">
+            <p>A classroom is an essential space where students read, write, and learn. It provides a comfort zone for both students and teachers, fostering a positive atmosphere for education. Key features include chairs and tables for comfort, a ceiling fan for a pleasant environment, and a board with a duster for teaching. Maintaining cleanliness is crucial, as it creates an inviting space that encourages academic success and focus.
+            </p>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="col s12 m12 l4">
+        <div class="card">
+          <div class="card-image">
+            <img src="images/library.jpg" style="filter: brightness(0.5);">
+            <span class="card-title">Library</span>
+          </div>
+          <div class="card-content" style="text-align: justify; font-size: 14px;">
+            <p>This is a place where student come to read during their leisure time and it is also comfortable for student relaxion of the brain,it also contains book in the shelf and different types of book to go through,and this help some of the student during test and examination period for their success through.</p>
+          </div>
+        </div>
+      </div>
+
+
+  
+</div>
+
+</div>
+<footer class="page-footer" style="background-color:grey">
+  <div class="container">
+     <div class="row">
+          <div class="col s12 l4">
+              <h5>About S.G.S.S.S</h5>
+              <p style="text-align: justify !important;">This is a website created by young girls, to tell people more about the school.</p>
+          </div>
+          <div class="col s12 l3 offset-l1">
+              <h5>Connect</h5>
+              <a class="icon" href="#" style="color:  rgb(169, 3, 48);"><i class="fab fa-facebook-f"></i></a>
+              <a class="icon" href="#" style="color:  rgb(169, 3, 48);"><i class="fab fa-twitter"></i></a>
+              <a class="icon" href="#" style="color:  rgb(169, 3, 48);"><i class="fab fa-linkedin"></i></a>
+              <a class="icon" href="#" style="color:  rgb(169, 3, 48);"><i class="fab fa-google"></i></a>
+              <a class="icon" href="#" style="color:  rgb(169, 3, 48);"><i class="fab fa-instagram"></i></a>
+          </div>
+           <div class="col s12 l4">
+              <h5>Contact</h5>
+              <p>15b Agege Motor road,<br>Moshalashi,<br>Lagos.</p>
+          </div>
+     </div>
+  </div>
+  <div class="footer-copyright" style="background-color: rgb(169, 3, 48);">
+      <div class="container">
+              <p class="center-align">&copy; 2024 Designed by S.G.S.S.S students. All rights reserved</p>
+      </div>
+  </div>
+</footer>
+
+<!-- Scripts for Materialize components -->
+<script src="js/jquery.js"></script>
+<script src="js/materialize.min.js"></script>
+
+<script>
+  $(document).ready(function(){
+    // Initialize sidenav
+    $('.sidenav').sidenav({
+      onOpenStart: function() {
+        $('body').addClass('sidenav-open'); // Add class when sidenav opens
+      },
+      onCloseEnd: function() {
+        $('body').removeClass('sidenav-open'); // Remove class when sidenav closes
+      }
+    });
+    
+    // Initialize parallax
+    $('.parallax').parallax(); 
+    
+    // Initialize other components
+    $('.materialboxed').materialbox();
+    $('.tabs').tabs();
+    $('.datepicker').datepicker({
+      disableWeekends: true,
+      yearRange: 1
+    });
+    $('.tooltipped').tooltip();
+    $('.scrollspy').scrollSpy();
+    $('.slider').slider(); 
+    $('.tap-target').tapTarget();
+    $('.modal').modal();
+
+    // Force a repaint on window resize
+    $(window).on('resize', function() {
+      $('nav').hide().show(0); // Force nav redraw
+      $('.parallax').parallax(); // Reinitialize parallax on resize
+    });
+  });
+
+  document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.dropdown-trigger');
+    var instances = M.Dropdown.init(elems, {
+      coverTrigger: false,
+      alignment: 'right'
+    });
+  });
+</script>
+
+</body>
+</html>
