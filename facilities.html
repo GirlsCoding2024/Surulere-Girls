@@ -55,6 +55,10 @@ font-style: normal; line-height: 1.5; font-size: 17px;
     .sidenav-open nav {
       display: none; /* Hide the navigation when sidenav is open */
     }
+
+    .active.fa{
+      border-bottom: 2px solid rgb(169, 3, 48); /* Wine color */
+    }
   </style>
 </head>
 
@@ -87,15 +91,10 @@ font-style: normal; line-height: 1.5; font-size: 17px;
 <ul class="sidenav" id="mobile-demo">
   <li><a href="index.html">Home</a></li>
   <li><a href="about.html">About</a></li>
-  <li><a class="dropdown-trigger" href="#!" data-target="dropdown2">Academics<i class="material-icons right">arrow_drop_down</i></a></li>
+  <li><a href="admission.html" >Admission</a></li>
+  <li><a href="facilities.html" class="active fa">Facilities</a></li>
   <li><a href="alumni.html" class="btn btn-header waves-effect waves-light lg" style="background-color: rgb(169, 3, 48)">Alumni <i class="material-icons right">face</i></a></li>
 </ul>
-
-<ul id="dropdown2" class="dropdown-content">
-  <li><a href="admission.html" >Admission</a></li>
-  <li><a href="facilities.html" style="color: rgb(169, 3, 48)">Facilities</a></li>
-</ul>
-
 
 </header>  
 
